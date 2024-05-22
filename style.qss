@@ -1,0 +1,41 @@
+﻿* {
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+QSlider::groove:horizontal {
+    border: none;
+    background-color: #333333;
+    height: 8px;
+    margin: 2px 0;
+    border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+    background-color: #1ABC9C;
+    border: none;
+    height: 16px;
+    width: 16px;
+    margin: -4px 0;
+    border-radius: 8px;
+}
+
+QToolButton {
+    border-radius: 16px;
+}
+
+QComboBox {
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px 18px 1px 3px;
+    min-width: 6em;
+}
+
+QComboBox QAbstractItemView {
+    border: 2px solid darkgray;
+    selection-background-color: lightblue;
+}
+
+QComboBox QAbstractItemView::item {
+    height: 25px;
+}
